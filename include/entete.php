@@ -19,8 +19,9 @@
 </head>
 <body>
     <header role="banner" class="header line pam">
-		<div class="header-logo"><a href="index.php" title="Retour à la page d'accueil" ></a></div>
-		<div class="conteneur center">		
+    <div class="conteneur center">	
+		<div class="header-logo"><a href="index.php" title="Retour à la page d'accueil" ><img src="composants/logo.png"></a></div>
+			
 		<nav role="navigation" class="menu mbs">
 			<ul class="line">
 				<li  class="inbl <?php if ($rubrique=='accueil') echo 'lien_actif'; ?>" ><a href="index.php"><span>Accueil</span></a></li>

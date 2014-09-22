@@ -42,7 +42,7 @@ $javascript = '
     </script>';
 include("include/entete.php");
 ?>
-<div role="main" class="texte">
+<div role="main" class="texte plm">
 	<div class="conteneur center pam">
         <div class="separation mls" style="border-left: 4px solid black;padding-left:10px;">
             <p class="mini-menup">Acceuil</p>
@@ -94,34 +94,42 @@ include("include/entete.php");
 
 <div role="main" class="texte3 pam">
 	<div class="conteneur center">
-		<div class="row pts">
+		<div class="row pts pll">
 			<div class="col w50 pam separation2">
 				<h2 class="title-h2"><img><span>Titre</span> du site<img></h2>
 				<p style="text-shadow: 1px 1px grey;">
 				Et prima ut dictum est, ab hac descriptione discrevimus, Commagena, nunc Euphratensis, clementer adsurgit, Hierapoli, vetere Nino et Samosata civitatibus amplis inlustris.
 				</p>
-				<p>
-				Haec igitur Epicuri non <strong>probo, inquam. De cetero vellem</strong> equidem aut ipse doctrinis fuisset instructior est enim, quod tibi ita videri necesse est, non satis politus iis artibus, quas qui tenent, eruditi appellantur aut ne deterruisset alios a studiis. quamquam te quidem video minime esse deterritum.
+				<p style="text-shadow: 1px 1px grey;">
+				Haec igitur Epicuri non probo, inquam. De cetero vellem equidem aut ipse doctrinis fuisset instructior est enim, quod tibi ita videri necesse est, non satis politus iis artibus, quas qui tenent, eruditi appellantur aut ne deterruisset alios a studiis. quamquam te quidem video minime esse deterritum.
 				</p>
 				 <p class="txtcenter mbm right mrl"><a style="color:black" class="bouton1" href="#">Lire la suite</a></p>
 			</div>
 			<div class="col w50 pam separation2">
 				<h2 class="title-h2"><img><span>Titre</span> du site<img></h2>
-				<p>
+				<p style="text-shadow: 1px 1px grey;">
 				Haec et huius modi quaedam innumerabilia ultrix facinorum impiorum bonorumque praemiatrix aliquotiens operatur Adrastia atque utinam semper quam vocabulo duplici etiam Nemesim appellamus: ius quoddam sublime numinis efficacis, humanarum mentium opinione lunari circulo superpositum, vel ut definiunt alii, substantialis tutela generali potentia partilibus praesidens fatis, quam theologi veteres fingentes Iustitiae filiam ex abdita quadam aeternitate tradunt omnia despectare terrena.
-				</p>
+				</p >
 				 <p class="txtcenter mbm right mrl mtl"><a style="color:black" class="bouton1" href="#">Lire la suite</a></p>
 			</div>
 		</div>
 	</div>	
 </div>
 
-<div role="main" class="texte4">
-	<div class="conteneur center">
+<div role="main" class="texte4 pam">
+	<div class="conteneur center pam" style="border: 1px solid white;">
 		<div class="box">
+            <img src="composants/icondev.png" alt="developpement" class="iconbar"/>
+            <p class="title-p"><span>D</span>eveloppement</p>
 		</div>
-		<div class="box"></div>
-		<div class="box"></div>
+		<div class="box">
+            <img src="composants/iconpaint.png" alt="developpement" class="iconbar" style="padding-left:50px;"/>
+            <p class="title-p" style="text-align:left; padding-left:60px;"><span>D</span>esign</p>
+        </div>
+		<div class="box">
+            <img src="composants/inconref.png" alt="developpement" class="iconbar"/>
+            <p class="title-p"><span>R</span>eferencement</p>
+        </div>
 	</div>
 </div>
 
