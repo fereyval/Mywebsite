@@ -18,6 +18,7 @@ $javascript = '
             });
         });
     </script>
+    
     <script type="text/javascript">
         function change()
         {
@@ -43,11 +44,11 @@ include("include/entete.php");
 ?>
 <div role="main" class="texte">
 	<div class="conteneur center pam">
-        <div class="separation">
-            <p class="mll mini-menup">Acceuil</p>
-            <ul class="mll mini-menu">
-                <li><a href="#">Bienvenue</a></li>
-                <li><a href="#">Réalisation récentes</a></li>
+        <div class="separation mls" style="border-left: 4px solid black;padding-left:10px;">
+            <p class="mini-menup">Acceuil</p>
+            <ul class="mini-menu">
+                <li><a href="#bvn">Bienvenue</a></li>
+                <li><a href="#rea">Réalisation récentes</a></li>
                 <li><a href="#">Formulaire et mentions légales</a></li>
             </ul>
         </div>
@@ -67,7 +68,8 @@ include("include/entete.php");
 			<ul class="bxslider">
 				<li>
 					<div class="diapo">
-						<img src="composants/diapo1.jpg" alt="" class="diapo-img">
+						<img src="composants/diapo1.jpg" alt="" class="diapo-img" id="bvn">
+                        <p ></p>
 					</div>
 				</li>
 				<li>
@@ -93,22 +95,22 @@ include("include/entete.php");
 <div role="main" class="texte3 pam">
 	<div class="conteneur center">
 		<div class="row pts">
-			<div class="col w50 pam separation">
-				<h2><img>Titre du site<img></h2>
-				<p>
+			<div class="col w50 pam separation2">
+				<h2 class="title-h2"><img><span>Titre</span> du site<img></h2>
+				<p style="text-shadow: 1px 1px grey;">
 				Et prima ut dictum est, ab hac descriptione discrevimus, Commagena, nunc Euphratensis, clementer adsurgit, Hierapoli, vetere Nino et Samosata civitatibus amplis inlustris.
 				</p>
 				<p>
 				Haec igitur Epicuri non <strong>probo, inquam. De cetero vellem</strong> equidem aut ipse doctrinis fuisset instructior est enim, quod tibi ita videri necesse est, non satis politus iis artibus, quas qui tenent, eruditi appellantur aut ne deterruisset alios a studiis. quamquam te quidem video minime esse deterritum.
 				</p>
-				 <p class="txtcenter mbm right mrl"><a style="color:white" class="bouton1" href="#">Lire la suite</a></p>
+				 <p class="txtcenter mbm right mrl"><a style="color:black" class="bouton1" href="#">Lire la suite</a></p>
 			</div>
-			<div class="col w50 pam separation">
-				<h2>Titre du site</h2>
+			<div class="col w50 pam separation2">
+				<h2 class="title-h2"><img><span>Titre</span> du site<img></h2>
 				<p>
 				Haec et huius modi quaedam innumerabilia ultrix facinorum impiorum bonorumque praemiatrix aliquotiens operatur Adrastia atque utinam semper quam vocabulo duplici etiam Nemesim appellamus: ius quoddam sublime numinis efficacis, humanarum mentium opinione lunari circulo superpositum, vel ut definiunt alii, substantialis tutela generali potentia partilibus praesidens fatis, quam theologi veteres fingentes Iustitiae filiam ex abdita quadam aeternitate tradunt omnia despectare terrena.
 				</p>
-				 <p class="txtcenter mbm right mrl"><a style="color:white" class="bouton1" href="#">Lire la suite</a></p>
+				 <p class="txtcenter mbm right mrl mtl"><a style="color:black" class="bouton1" href="#">Lire la suite</a></p>
 			</div>
 		</div>
 	</div>	
@@ -125,7 +127,7 @@ include("include/entete.php");
 
 <div role="main" class="texte5 pam">
 	<div class="conteneur center">
-		<h2>Mes dernières réalisations</h2>
+		<h2 class="title-h2" id="rea"><span>Mes dernières</span> réalisations</h2>
 		<div id="carousel">
         <div class="carousel-feature">
           <a href="#"><img class="carousel-image" alt="Image Caption" src="styles/bijoudexpo.jpg"></a>
