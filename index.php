@@ -62,19 +62,24 @@ include("include/entete.php");
 	</div>
 </div>
 
-<div role="main" class="texte2 pam">
+<div role="main" class="texte2 plm ptm">
 	<div class="conteneur center plm">
 		<div class="carrousel">
 			<ul class="bxslider">
 				<li>
 					<div class="diapo">
-						<img src="composants/diapo1.jpg" alt="" class="diapo-img" id="bvn">
-                        <p ></p>
+						<div class="box2">
+							<img src="composants/diapo2.jpg" alt="" class="diapo-img" id="bvn">
+						</div>
+						<div class="box3">
+							<h3>Bienvenue sur le site de la DDR Web!</h3>
+							<p>Et prima ut dictum est, ab hac descriptione discrevimus, Commagena, nunc Euphratensis, clementer adsurgit, Hierapoli, vetere Nino et Samosata civitatibus amplis inlustris.Haec igitur Epicuri non probo, inquam. De cetero vellem equidem aut ipse doctrinis fuisset instructior est enim, quod tibi ita videri necesse est, non satis politus iis artibus, quas qui tenent, eruditi appellantur aut ne deterruisset alios a studiis.</p>
+						</div>
 					</div>
 				</li>
 				<li>
 					<div class="diapo">
-						<img src="composants/diapo2.jpg" alt="" class="diapo-img">
+						<img src="composants/diapo1.jpg" alt="" class="diapo-img">
 					</div>
 				</li>
 				 <li>
@@ -96,7 +101,7 @@ include("include/entete.php");
 	<div class="conteneur center">
 		<div class="row pts pll">
 			<div class="col w50 pam separation2">
-				<h2 class="title-h2"><img><span>Titre</span> du site<img></h2>
+				<h2 class="title-h2"><img><span>Pourquoi</span> DDR Web?<img></h2>
 				<p style="text-shadow: 1px 1px grey;">
 				Et prima ut dictum est, ab hac descriptione discrevimus, Commagena, nunc Euphratensis, clementer adsurgit, Hierapoli, vetere Nino et Samosata civitatibus amplis inlustris.
 				</p>
@@ -106,7 +111,7 @@ include("include/entete.php");
 				 <p class="txtcenter mbm right mrl"><a style="color:black" class="bouton1" href="#">Lire la suite</a></p>
 			</div>
 			<div class="col w50 pam separation2">
-				<h2 class="title-h2"><img><span>Titre</span> du site<img></h2>
+				<h2 class="title-h2"><img><span>Qui</span> suis-je?<img></h2>
 				<p style="text-shadow: 1px 1px grey;">
 				Haec et huius modi quaedam innumerabilia ultrix facinorum impiorum bonorumque praemiatrix aliquotiens operatur Adrastia atque utinam semper quam vocabulo duplici etiam Nemesim appellamus: ius quoddam sublime numinis efficacis, humanarum mentium opinione lunari circulo superpositum, vel ut definiunt alii, substantialis tutela generali potentia partilibus praesidens fatis, quam theologi veteres fingentes Iustitiae filiam ex abdita quadam aeternitate tradunt omnia despectare terrena.
 				</p >

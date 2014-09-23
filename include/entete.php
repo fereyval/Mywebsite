@@ -18,7 +18,7 @@
     <title><?php echo $title.' - '.NOM_SITE; ?></title>
 </head>
 <body>
-    <header role="banner" class="header line pam">
+    <header role="banner" class="header line ">
     <div class="conteneur center">	
 		<div class="header-logo"><a href="index.php" title="Retour à la page d'accueil" ><img src="composants/logo.png"></a></div>
 			
