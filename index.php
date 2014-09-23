@@ -49,7 +49,7 @@ include("include/entete.php");
             <ul class="mini-menu">
                 <li><a href="#bvn">Bienvenue</a></li>
                 <li><a href="#rea">Réalisation récentes</a></li>
-                <li><a href="#">Formulaire et mentions légales</a></li>
+                <li><a href="#for">Formulaire et mentions légales</a></li>
             </ul>
         </div>
         <div class="sociaux">
@@ -172,7 +172,7 @@ include("include/entete.php");
 			<p class="mbm mll fuck accordion-titre"><a style="color:#FFFFFF" class="bouton2"><img src="styles/btn.png" id="test" onclick="change();" class="pad"/>Pour toute demande cliquez ici</a></p>
 			<div class="formulaire1">
 				<form method="post" action="contact.php">
-					<p class="form-style">Nom : <input type="text" name="nom" /></p>
+					<p class="form-style" id="for">Nom : <input type="text" name="nom" /></p>
 				</form><br>
 				<form method="post" action="contact.php">
 					<p class="form-style">Prénom : <input type="text" name="prenom" /></p>
