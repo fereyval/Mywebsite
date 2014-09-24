@@ -7,7 +7,7 @@
 *   Attention : Ne mettre qu'une constante par ligne
 **********************************************************************/
 // Site
-define ("NOM_SITE" , "weshwesh cmoilplusbo" ) ; // Nom du site
+define ("NOM_SITE" , "Océane finances" ) ; // Nom du site
 
 // Coordonnees
 define ("SOC_NOM" , "OCEANE FINANCES SARL" ) ; // Nom de la société

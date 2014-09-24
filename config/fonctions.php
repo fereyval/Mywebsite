@@ -240,6 +240,15 @@ function cleanHtml($texte, $config = false)
 	return htmLawed($texte, $config);
 }
 
+function parseTexte($texte) {
+    $search = array('<h1>', '<h2>', '<h3>', '<h4>');
+    $replace = array('<h1 class="texte-h1">', '<h2 class="texte-h2">', '<h3 class="texte-h3">', '<h4 class="texte-h4">');
+
+    $texte = str_replace($search, $replace, $texte);
+
+    return $texte;
+}
+
 /**
 * Rendre compatible la fonction htmlspecialchars sans paramètre avec php 5.4
 */
@@ -268,6 +277,52 @@ function getPub($format)
     if($db->num_rows($result)) {
         $pub = $db->fetch_assoc($result);
         return stripcslashes($pub['html']);
+    }
+    return false;
+}
+
+/**
+* Vérifie si c'est un spambot
+* utilise données de http://www.stopforumspam.com
+* @param string $emailAddress - email à tester
+* @param string $ipAddress - ip à tester
+* @param string $userName - user à tester
+* @param string $confidence Score de confiance en pourcentage ; 0 = tous
+* @return bool
+*/
+function checkIfSpambot($emailAddress, $ipAddress, $userName, $confidence = 0)
+{
+
+    $adresse = 'http://www.stopforumspam.com/api?';
+    $query = array(
+                'confidence' => 'true',
+                'f' => 'xmldom',
+                );
+
+    if (!empty($emailAddress)) {
+        $query['email'] = urlencode($emailAddress);
+    }
+    if (!empty($ipAddress)) {
+        $query['ip'] = urlencode($ipAddress);
+    }
+    if (!empty($userName)) {
+        $query['username'] = urlencode($userName);
+    }
+    foreach($query as $key => $value) {
+        $adresse .= $key.'='.$value.'&';
+    }
+
+    $xml_string = file_get_contents($adresse);
+    if ($xml_string) {
+        $xml = new SimpleXMLElement($xml_string);
+        if ($xml->success == 1) {
+            foreach ($xml->children() as $value) {
+                if ($value->appears == "1" and  $value->confidence >= $confidence) {
+                    // spammeur detecté
+                    return true;
+                }
+            }
+        }
     }
     return false;
 }

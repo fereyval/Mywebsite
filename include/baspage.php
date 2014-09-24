@@ -1,7 +1,7 @@
         </div><!-- Fin texte //-->
 
         <footer role="contentinfo" class="footer line pam txtcenter">
-            <p><a href="mentions-legales.php" >Mentions légales</a> - Réalisé, hébergé et référencé par <img src="composants/logo.png" alt="logo DDRweb" style="width:60px;"></p>
+            <p><a href="mentions-legales.php" >Mentions légales</a> - Réalisé, hébergé et référencé par <a href="http://www.ddrweb.fr"><img src="composants/logo.png" alt="logo DDRweb" style="width:60px;"></a></p>
         </footer>
     </div><!-- Fin conteneur //-->
      <script type='text/javascript' src='javascripts/jquery-1.7.2.min.js'></script>

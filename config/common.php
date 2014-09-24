@@ -57,23 +57,25 @@ include ROOT."config/classes/liste.class.php";
 include ROOT."config/classes/lib.files.php";
 include ROOT.'config/classes/errors.class.php';
 include ROOT."config/classes/messages.class.php";
-include ROOT.'config/classes/panier.class.php';
-include ROOT.'config/classes/commande.class.php';
 
 /*****************************************************************
 * DEMARRAGE SESSION
 ******************************************************************/
 session_start();
 
-
+/*****************************************************************
+* INSTANCIATION
+******************************************************************/
+// Instanciation de la class Message
+$msg = new Messages();
 
 /*****************************************************************
 * CONNECTION BDD
 ******************************************************************/
 // Load DB abstraction layer and connect
-//require ROOT.'config/classes/common_db.php';
+require ROOT.'config/classes/common_db.php';
 // Start a transaction
-//$db->start_transaction();
+$db->start_transaction();
 
 /******************************************************************
 * REPERTOIRES

@@ -52,56 +52,79 @@ $head = '
 $javascript = '';
 include("include/entete.php");
 ?>
-<div role="main" class="texte4 mod mls pam">
-<h1>Contactez-nous</h1>
-
-<h2>Nos coordonnées</h2>
-<div class="vcard">
-    <p>
-        <strong class="fn"><?php echo SOC_NOM ?></strong>
-    </p>
-    <p>
-        <strong>Adresse :</strong><br>
-        <span class="street-address"><?php echo SOC_ADRESSE ?></span><br>
-        <span class="postal-code"><?php echo SOC_CP ?></span> - <span class="locality"><?php echo SOC_VILLE ?></span><br>
-        <strong>Téléphone :</strong> <span class="tel"><?php echo SOC_TEL ?></span><br>
-        <strong>GSM :</strong> <span><?php echo SOC_GSM ?></span><br>
-        <strong>Fax :</strong> <?php echo SOC_FAX ?><br>
-        <strong>Courriel :</strong> <span class="email"><?php echo mailAntiSpam(SOC_EMAIL) ?></span>
-    </p>
+<div role="main" class="texte plm">
+	<div class="conteneur center pam">
+        <div class="separation mls" style="border-left: 4px solid black;padding-left:10px;">
+            <p class="mini-menup">Contact</p>
+            <ul class="mini-menu">
+                <li><a href="#bvn">Coordonnées</a></li>
+                <li><a href="#map">Géolocalisation</a></li>
+                <li><a href="#for">Envoyez un message</a></li>
+            </ul>
+        </div>
+        <div class="sociaux">
+            <ul class="sociaux-liste">
+                <li><a href="https://www.facebook.com/pages/Oc%C3%A9ane-Finances/225308804320795"><img src="composants/facebook.png" alt="Facebook"></a></li>
+                <li><a href="https://twitter.com/Oceane_Finances"><img src="composants/twitter.png" alt="Twitter"></a></li>
+                <li><a href="https://www.linkedin.com/company/oceane-finances?trk=biz-companies-cym"><img src="composants/linkedin.png" alt="Linkedin"></a></li>
+            </ul>
+        </div>
+    </div>
 </div>
-<h2>Envoyez-nous un message</h2>
-<?php echo $msg->display('all', true, false); ?>
-<form class="saisie2" method="post" action="?">
-	<p <?php  echo $msg->hasErrors('nom') ? 'class="form_erreur"' : '' ?>>
-		<label for="nom" class="oblig" >Nom </label>
-		<input name="nom" id="nom" type="text" value="<?php echo htmlXspecialchars(!empty($_POST['nom']) ? $_POST['nom'] : '')?>">
-	</p>
-	<p>
-		<label for="prenom">Prénom</label>
-		<input name="prenom" id="prenom" type="text" value="<?php echo htmlXspecialchars(!empty($_POST['prenom']) ? $_POST['prenom'] : '')?>">
-	</p>
-	<p class="s_kill">
-		<label for="age">Age</label>
-		<input name="age" id="age" type="text" value="">
-	</p>
-	<p <?php  echo $msg->hasErrors('email') ? 'class="form_erreur"' : '' ?>>
-		<label for="email" class="oblig" >Courriel </label>
-		<input name="email" id="email" type="text" value="<?php echo htmlXspecialchars(!empty($_POST['email']) ? $_POST['email'] : '')?>">
-	</p>
-    <p>
-        <label for="telephone">Téléphone </label>
-        <input name="telephone" id="telephone" type="text" value="<?php echo htmlXspecialchars(!empty($_POST['telephone']) ? $_POST['telephone'] : '')?>">
-    </p>
-	<p <?php  echo $msg->hasErrors('message') ? 'class="form_erreur"' : '' ?>>
-		<label for="message" class="oblig" >Message</label>
-		<textarea name="message"  id="message" cols="40" rows="5" ><?php echo htmlXspecialchars(!empty($_POST['message']) ? $_POST['message'] : '')?></textarea>
-	</p>
-	<p>
-		<label for="submit">&nbsp;</label>
-		<input name="submit" id="submit" class="envoyer_mail" type="submit" value="Envoyer">
-	</p>
-</form>
+
+<div role="main" class="texte3 plm ptm">
+	<div class="conteneur center plm">  
+        <h1>Contactez-nous</h1>
+
+        <h2 id="bvn">Nos coordonnées</h2>
+        <div class="vcard">
+            <p>
+                <strong class="fn"><?php echo SOC_NOM ?></strong>
+            </p>
+            <p>
+                <strong>Adresse :</strong><br>
+                <span class="street-address"><?php echo SOC_ADRESSE ?></span><br>
+                <span class="postal-code"><?php echo SOC_CP ?></span> - <span class="locality"><?php echo SOC_VILLE ?></span><br>
+                <strong>Téléphone :</strong> <span class="tel"><?php echo SOC_TEL ?></span><br>
+                <strong>GSM :</strong> <span><?php echo SOC_GSM ?></span><br>
+                <strong>Fax :</strong> <?php echo SOC_FAX ?><br>
+                <strong>Courriel :</strong> <span class="email"><?php echo mailAntiSpam(SOC_EMAIL) ?></span>
+            </p>
+        </div>
+        <h2 id="for">Envoyez-nous un message</h2>
+        <?php echo $msg->display('all', true, false); ?>
+        <form class="saisie2" method="post" action="?">
+            <p <?php  echo $msg->hasErrors('nom') ? 'class="form_erreur"' : '' ?>>
+                <label for="nom" class="oblig" >Nom </label>
+                <input name="nom" id="nom" type="text" value="<?php echo htmlXspecialchars(!empty($_POST['nom']) ? $_POST['nom'] : '')?>">
+            </p>
+            <p>
+                <label for="prenom">Prénom</label>
+                <input name="prenom" id="prenom" type="text" value="<?php echo htmlXspecialchars(!empty($_POST['prenom']) ? $_POST['prenom'] : '')?>">
+            </p>
+            <p class="s_kill">
+                <label for="age">Age</label>
+                <input name="age" id="age" type="text" value="">
+            </p>
+            <p <?php  echo $msg->hasErrors('email') ? 'class="form_erreur"' : '' ?>>
+                <label for="email" class="oblig" >Courriel </label>
+                <input name="email" id="email" type="text" value="<?php echo htmlXspecialchars(!empty($_POST['email']) ? $_POST['email'] : '')?>">
+            </p>
+            <p>
+                <label for="telephone">Téléphone </label>
+                <input name="telephone" id="telephone" type="text" value="<?php echo htmlXspecialchars(!empty($_POST['telephone']) ? $_POST['telephone'] : '')?>">
+            </p>
+            <p <?php  echo $msg->hasErrors('message') ? 'class="form_erreur"' : '' ?>>
+                <label for="message" class="oblig" >Message</label>
+                <textarea name="message"  id="message" cols="40" rows="5" ><?php echo htmlXspecialchars(!empty($_POST['message']) ? $_POST['message'] : '')?></textarea>
+            </p>
+            <p>
+                <label for="submit">&nbsp;</label>
+                <input name="submit" id="submit" class="envoyer_mail" type="submit" value="Envoyer">
+            </p>
+        </form>
+    </div>
+</div>
 <?php
 $msg->clear();
 include("include/baspage.php");
