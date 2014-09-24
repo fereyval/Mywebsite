@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="styles/knacss.css">
     <link rel="stylesheet" type="text/css" href="styles/style.css">
 	<link href="styles/jquery.bxslider.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/portfolio.css" type="text/css" media="screen"/>
 	<link rel="stylesheet" href="styles/feature-carousel.css" charset="utf-8" />
 	     <script type='text/javascript' src='javascripts/jquery-1.7.2.min.js'></script>
     <!--[if lt IE 9]>
@@ -25,7 +26,7 @@
 		<nav role="navigation" class="menu mbs">
 			<ul class="line">
 				<li  class="inbl <?php if ($rubrique=='accueil') echo 'lien_actif'; ?>" ><a href="index.php"><span>Accueil</span></a></li>
-				<li  class="inbl <?php if ($rubrique=='menu3') echo 'lien_actif'; ?>" ><a href="#"><span>Portfolio</span></a></li>
+				<li  class="inbl <?php if ($rubrique=='portfolio') echo 'lien_actif'; ?>" ><a href="portfolio.php"><span>Portfolio</span></a></li>
 				<li  class="inbl <?php if ($rubrique=='menu4') echo 'lien_actif'; ?>" ><a href="#"><span>Compétences</span></a></li>
 				<li  class="inbl <?php if ($rubrique=='menu4') echo 'lien_actif'; ?>" ><a href="#"><span>Services</span></a></li>
 				<li  class="inbl <?php if ($rubrique=='contact') echo 'lien_actif'; ?>" ><a href="contact.php"><span>Contact</span></a></li>

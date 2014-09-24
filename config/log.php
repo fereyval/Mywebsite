@@ -453,3 +453,4 @@
 [22-09-2014 23:26:35] E_NOTICE Undefined variable: msg in : C:\xampp\htdocs\sites\Mywebsite\contact.php, on line : 74
 [23-09-2014 00:14:43] E_NOTICE Undefined variable: msg in : C:\xampp\htdocs\sites\Mywebsite\contact.php, on line : 74
 [23-09-2014 00:14:49] E_NOTICE Undefined variable: msg in : C:\xampp\htdocs\sites\Mywebsite\contact.php, on line : 74
+[24-09-2014 09:45:38] E_NOTICE Undefined variable: msg in : C:\xampp\htdocs\Mywebsite\contact.php, on line : 74

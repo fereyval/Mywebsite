@@ -32,7 +32,7 @@ body {
 }
 	.conteneur {
 		position: relative;
-		max-width: 980px;
+		width: 980px;
 	}
 
 /*---- Bandeau -------*/
@@ -105,14 +105,30 @@ body {
     border-bottom: 2px solid white;
 }
 
+.textportfolio {
+    min-height: 320px;
+    background-color: #eeeeee;
+    border-bottom: 2px solid #2ba9d9;
+}
+
 .texte2 {
 	min-height: 320px;
 	background-color: #eeeeee;
     border-bottom: 2px solid #2ba9d9;
 }
 
+.texte2portfolio {
+    min-height: 80px;
+	background-color: white;
+}
+
 .texte3 {
 	min-height: 380px;
+	background-color: white;
+}
+
+.texte3portfolio {
+    min-height: 1080px;
 	background-color: white;
 }
 
@@ -419,36 +435,6 @@ background: url(separation2.png) left 80px no-repeat;
     font-style: italic;
 }
 
-/*---Slide image---*/
-
-#slides div {
-	background: #fff;
-	height: 225px; /* Égal à la hauteur de l'image */
-	margin: 10px;
-	overflow: hidden;
-	position: relative;
-	width: 300px; /* Égal à la largeur de l'image */
-}
-
-#slides div img {
-	left: 0;
-	position: absolute;
-	top: 0;
-	transition: transform 0.5s ease-in-out;
-	-moz-transition: -moz-transform 0.5s ease-in-out;
-	-o-transition: -o-transform 0.5s ease-in-out;
-	-webkit-transition: -webkit-transform 0.5s ease-in-out;
-}
-
-#slides div:hover img {
-	transform: translateY(-225px); /* Valeur négative égale à la hauteur de l'image */
-	-moz-transform: translateY(-225px);
-	-o-transform: translateY(-225px);
-	-webkit-transform: translateY(-225px);
-}
-
-/*--- Fin Slide image---*/
-
 .title-h2 {
     text-transform: uppercase;
     font-family: 'mv_boliregular';
@@ -473,7 +459,120 @@ background: url(separation2.png) left 80px no-repeat;
     color: #2ba9d9;
     }
     
+.title-h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size:1.2em;
+}
+
+    .title-h3 span{
+    color: #2ba9d9;
+    }    
+    
 .iconbar {
     padding: 5px;
     padding-left: 80px;
 }    
+ 
+.lel {
+min-height: 260px;
+box-shadow:
+0px 2px 6px 0px rgba(0, 0, 0, 0.5),
+0px 2px 6px 0px rgba(255, 255, 255, 0.5) inset; 
+	border:  15px solid #fff;
+	left: -5px;
+	background: #f3f3f3;
+	-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+	
+	/*fix other elements on the page moving (on Chrome)*/
+	-webkit-transform: translatez(0);
+	-moz-transform: translatez(0);
+    	-ms-transform: translatez(0);
+    	-o-transform: translatez(0);
+    	transform: translatez(0);
+}
+
+#slides {
+    margin: 0 auto;
+}
+
+#slides div {
+    background: #eeeeee;
+    height: 225px;
+    margin-left: 10px;
+    overflow: hidden;
+    position: relative;
+    width: 300px;
+}
+
+#slides div p {
+    padding: 0 10px;
+}
+
+#slides div img {
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: transform 0.5s ease-in-out;
+    -moz-transition: -moz-transform 0.5s ease-in-out;
+    -o-transition: -o-transform 0.5s ease-in-out;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+}
+
+#slides div.slide-down:hover img {
+    transform: translateY(225px);
+    -moz-transform: translateY(225px);
+    -o-transform: translateY(225px);
+    -webkit-transform: translateY(225px);
+}
+
+#slides div.slide-down-left:hover img {
+    transform: translate(-300px,225px);
+    -moz-transform: translate(-300px,225px);
+    -o-transform: translate(-300px,225px);
+    -webkit-transform: translate(-300px,225px);
+}
+
+#slides div.slide-down-right:hover img {
+    transform: translate(300px,225px);
+    -moz-transform: translate(300px,225px);
+    -o-transform: translate(300px,225px);
+    -webkit-transform: translate(300px,225px);
+}
+
+#slides div.slide-left:hover img {
+    transform: translateX(-300px);
+    -moz-transform: translateX(-300px);
+    -o-transform: translateX(-300px);
+    -webkit-transform: translateX(-300px);
+}
+
+#slides div.slide-right:hover img {
+    transform: translateX(300px);
+    -moz-transform: translateX(300px);
+    -o-transform: translateX(300px);
+    -webkit-transform: translateX(300px);
+}
+
+#slides div.slide-up:hover img {
+    transform: translateY(-225px);
+    -moz-transform: translateY(-225px);
+    -o-transform: translateY(-225px);
+    -webkit-transform: translateY(-225px);
+}
+
+#slides div.slide-up-left:hover img {
+    transform: translate(-300px,-225px);
+    -moz-transform: translate(-300px,-225px);
+    -o-transform: translate(-300px,-225px);
+    -webkit-transform: translate(-300px,-225px);
+}
+
+#slides div.slide-up-right:hover img {
+    transform: translate(300px,-225px);
+    -moz-transform: translate(300px,-225px);
+    -o-transform: translate(300px,-225px);
+    -webkit-transform: translate(300px,-225px);
+}
