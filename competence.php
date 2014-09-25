@@ -26,7 +26,7 @@ include("include/entete.php");
             <p class="mini-menup">Compétences</p>
             <ul class="mini-menu">
                 <li><a href="#bvn">Mes compétences</a></li>
-				<li><a href="#bvn">Mon Curriculum vitae</a></li>
+				<li><a href="#cv">Mon Curriculum vitae</a></li>
                 <li><a href="#for">Formulaire et mentions légales</a></li>
             </ul>
         </div>
@@ -62,58 +62,222 @@ include("include/entete.php");
 
 <div role="main" class="texte3 pam">
 	<div class="conteneur center">
-		<div class="caracteristiques cara_droite" >
-			<h2>Mes compétences</h2>
-				<ul>
-					<li>HTML / CSS
-						<span class="etoile">
-							<img src="styles/etoileP.png" alt="étoile" />
-							<img src="styles/etoileP.png" alt="étoile" />
-							<img src="styles/etoileP.png" alt="étoile" />
-							<img src="styles/etoileM.png" alt="étoile" />
-							<img src="styles/etoileV.png" alt="étoile" />
-						</span>
-					</li>
-					<li>Javascript
-						<span class="etoile">
-							<img src="styles/etoileP.png" alt="étoile" />
-							<img src="styles/etoileM.png" alt="étoile" />
-							<img src="styles/etoilev.png" alt="étoile" />
-							<img src="styles/etoilev.png" alt="étoile" />
-							<img src="styles/etoileV.png" alt="" />
-						</span>
-					</li>
-					<li>PHP
-						<span class="etoile">
-							<img src="styles/etoileP.png" alt="étoile" />
-							<img src="styles/etoilev.png" alt="étoile" />
-							<img src="styles/etoilev.png" alt="étoile" />
-							<img src="styles/etoilev.png" alt="étoile" />
-							<img src="styles/etoileV.png" alt="" />
-						</span>
-					</li>
-					<li>C
-						<span class="etoile">
-							<img src="styles/etoileP.png" alt="étoile" />
-							<img src="styles/etoileP.png" alt="étoile" />
-							<img src="styles/etoileP.png" alt="étoile" />
-							<img src="styles/etoileM.png" alt="étoile" />
-							<img src="styles/etoileV.png" alt="" />
-						</span>
-					</li>
-					<li>C++
-						<span class="etoile">
-							<img src="styles/etoileP.png" alt="étoile" />
-							<img src="styles/etoilev.png" alt="étoile" />
-							<img src="styles/etoilev.png" alt="étoile" />
-							<img src="styles/etoilev.png" alt="étoile" />
-							<img src="styles/etoileV.png" alt="" />
-						</span>
-					</li>
-				</ul>
-		</div>
-        <a href="http://ge.tt/api/1/files/7k6psUz1/0/blob?download">Mon CV</a>
+        <div class="row pts">
+            <div class="caracteristiques col w33 pam" >
+                <h2 class="title-h3" style="font-size:1.8em;"><span>I</span>ntégration</h2>
+                <ul>
+                    <li>HTML 5
+                        <span class="etoile">
+                            <img src="styles/etoileP.png" alt="étoile" />
+                            <img src="styles/etoileP.png" alt="étoile" />
+                            <img src="styles/etoileP.png" alt="étoile" />
+                            <img src="styles/etoileM.png" alt="étoile" />
+                            <img src="styles/etoileV.png" alt="étoile" />
+                        </span>
+                    </li>
+                    <li>CSS 3
+                        <span class="etoile">
+                            <img src="styles/etoileP.png" alt="étoile" />
+                            <img src="styles/etoileM.png" alt="étoile" />
+                            <img src="styles/etoilev.png" alt="étoile" />
+                            <img src="styles/etoilev.png" alt="étoile" />
+                            <img src="styles/etoileV.png" alt="" />
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="caracteristiques col w33 pam" >
+                <h2 class="title-h3" style="font-size:1.8em;"><span>D</span>éveloppement</h2>
+                <ul>
+                    <li>Javascript
+                        <span class="etoile">
+                            <img src="styles/etoileP.png" alt="étoile" />
+                            <img src="styles/etoileM.png" alt="étoile" />
+                            <img src="styles/etoilev.png" alt="étoile" />
+                            <img src="styles/etoilev.png" alt="étoile" />
+                            <img src="styles/etoileV.png" alt="" />
+                        </span>
+                    </li>
+                    <li>PHP
+                        <span class="etoile">
+                            <img src="styles/etoileP.png" alt="étoile" />
+                            <img src="styles/etoilev.png" alt="étoile" />
+                            <img src="styles/etoilev.png" alt="étoile" />
+                            <img src="styles/etoilev.png" alt="étoile" />
+                            <img src="styles/etoileV.png" alt="" />
+                        </span>
+                    </li>
+                    <li>MySQL
+                        <span class="etoile">
+                            <img src="styles/etoileP.png" alt="étoile" />
+                            <img src="styles/etoilev.png" alt="étoile" />
+                            <img src="styles/etoilev.png" alt="étoile" />
+                            <img src="styles/etoilev.png" alt="étoile" />
+                            <img src="styles/etoileV.png" alt="" />
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="caracteristiques col w33 pam" >
+                <h2 class="title-h3" style="font-size:1.8em;"><span>D</span>esign</h2>
+                <ul>
+                    <li>Photoshop
+                        <span class="etoile">
+                            <img src="styles/etoileP.png" alt="étoile" />
+                            <img src="styles/etoileP.png" alt="étoile" />
+                            <img src="styles/etoileP.png" alt="étoile" />
+                            <img src="styles/etoileM.png" alt="étoile" />
+                            <img src="styles/etoileV.png" alt="étoile" />
+                        </span>
+                    </li>
+                    <li>Fireworks
+                        <span class="etoile">
+                            <img src="styles/etoileP.png" alt="étoile" />
+                            <img src="styles/etoilev.png" alt="étoile" />
+                            <img src="styles/etoilev.png" alt="étoile" />
+                            <img src="styles/etoilev.png" alt="étoile" />
+                            <img src="styles/etoileV.png" alt="" />
+                        </span>
+                    </li>
+                    <li>RWD
+                        <span class="etoile">
+                            <img src="styles/etoileP.png" alt="étoile" />
+                            <img src="styles/etoilev.png" alt="étoile" />
+                            <img src="styles/etoilev.png" alt="étoile" />
+                            <img src="styles/etoilev.png" alt="étoile" />
+                            <img src="styles/etoileV.png" alt="" />
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row pts">
+            <div class="caracteristiques col w33 pam" >
+                <h2 class="title-h3" style="font-size:1.8em;"><span>A</span>utres languages</h2>
+                <ul>
+                    <li>C
+                        <span class="etoile">
+                            <img src="styles/etoileP.png" alt="étoile" />
+                            <img src="styles/etoileP.png" alt="étoile" />
+                            <img src="styles/etoileP.png" alt="étoile" />
+                            <img src="styles/etoileM.png" alt="étoile" />
+                            <img src="styles/etoileV.png" alt="étoile" />
+                        </span>
+                    </li>
+                    <li>C++
+                        <span class="etoile">
+                            <img src="styles/etoileP.png" alt="étoile" />
+                            <img src="styles/etoileM.png" alt="étoile" />
+                            <img src="styles/etoilev.png" alt="étoile" />
+                            <img src="styles/etoilev.png" alt="étoile" />
+                            <img src="styles/etoileV.png" alt="" />
+                        </span>
+                    </li>
+                    <li>Python
+                        <span class="etoile">
+                            <img src="styles/etoileP.png" alt="étoile" />
+                            <img src="styles/etoileM.png" alt="étoile" />
+                            <img src="styles/etoilev.png" alt="étoile" />
+                            <img src="styles/etoilev.png" alt="étoile" />
+                            <img src="styles/etoileV.png" alt="" />
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="caracteristiques col w33 pam" >
+                <h2 class="title-h3" style="font-size:1.8em;" id="cv"><span>C</span>ms</h2>
+                <ul>
+                    <li>Wordpress
+                        <span class="etoile">
+                            <img src="styles/etoileP.png" alt="étoile" />
+                            <img src="styles/etoileM.png" alt="étoile" />
+                            <img src="styles/etoilev.png" alt="étoile" />
+                            <img src="styles/etoilev.png" alt="étoile" />
+                            <img src="styles/etoileV.png" alt="" />
+                        </span>
+                    </li>
+                    <li>typo3
+                        <span class="etoile">
+                            <img src="styles/etoileP.png" alt="étoile" />
+                            <img src="styles/etoilev.png" alt="étoile" />
+                            <img src="styles/etoilev.png" alt="étoile" />
+                            <img src="styles/etoilev.png" alt="étoile" />
+                            <img src="styles/etoileV.png" alt="" />
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="caracteristiques col w33 pam" >
+                <h2 class="title-h3" style="font-size:1.8em;"><span>F</span>rameworks</h2>
+                <ul>
+                    <li>JQuéry
+                        <span class="etoile">
+                            <img src="styles/etoileP.png" alt="étoile" />
+                            <img src="styles/etoileP.png" alt="étoile" />
+                            <img src="styles/etoileP.png" alt="étoile" />
+                            <img src="styles/etoileM.png" alt="étoile" />
+                            <img src="styles/etoileV.png" alt="étoile" />
+                        </span>
+                    </li>
+                    <li>Ajax
+                        <span class="etoile">
+                            <img src="styles/etoileP.png" alt="étoile" />
+                            <img src="styles/etoilev.png" alt="étoile" />
+                            <img src="styles/etoilev.png" alt="étoile" />
+                            <img src="styles/etoilev.png" alt="étoile" />
+                            <img src="styles/etoileV.png" alt="" />
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div> 
+        <div class="row pts">
+            <div class="caracteristiques col w100 pam" >
+                <h2 class="title-h3" style="font-size:1.8em;"><span>A</span>utres compétences</h2>
+                <ul>
+                    <li>Unix
+                        <span class="etoile">
+                            <img src="styles/etoileP.png" alt="étoile" />
+                            <img src="styles/etoileP.png" alt="étoile" />
+                            <img src="styles/etoileP.png" alt="étoile" />
+                            <img src="styles/etoileM.png" alt="étoile" />
+                            <img src="styles/etoileV.png" alt="étoile" />
+                        </span>
+                    </li>
+                    <li>Git
+                        <span class="etoile">
+                            <img src="styles/etoileP.png" alt="étoile" />
+                            <img src="styles/etoileM.png" alt="étoile" />
+                            <img src="styles/etoilev.png" alt="étoile" />
+                            <img src="styles/etoilev.png" alt="étoile" />
+                            <img src="styles/etoileV.png" alt="" />
+                        </span>
+                    </li>
+                    <li>Anglais
+                        <span class="etoile">
+                            <img src="styles/etoileP.png" alt="étoile" />
+                            <img src="styles/etoileP.png" alt="étoile" />
+                            <img src="styles/etoileP.png" alt="étoile" />
+                            <img src="styles/etoileP.png" alt="étoile" />
+                            <img src="styles/etoileV.png" alt="" />
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
 	</div>
+</div>
+
+<div role="main" class="textcomp pam">
+	<div class="conteneur center">
+        <p class="title-h3">Mon CV téléchargeable :</p>
+     <p class="txtcenter mbm mrs center  pts"><a style="color:black" class="bouton3" href="http://ge.tt/api/1/files/7k6psUz1/0/blob?download"><img src="styles/pdf.png" />Télécharger</a></p>
+    </div>
 </div>
 
 <div role="main" class="texte4 pam">
