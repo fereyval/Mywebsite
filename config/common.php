@@ -17,14 +17,14 @@ include ROOT."config/parametres_ipsum.php";
 /*****************************************************************
 * DEFINITION DES CONSTANTES LOCAL
 ******************************************************************/
-// Définit le fuseau horaire par défaut à utiliser.
+// DÃ©finit le fuseau horaire par dÃ©faut Ã  utiliser.
 //date_default_timezone_set('UTC');
 date_default_timezone_set('America/Martinique');
 
 /*****************************************************************
 * GESTION DES ERREURS
 ******************************************************************/
-// Définition du mode de production ou developpement
+// DÃ©finition du mode de production ou developpement
 define ('MODE', SERVEUR != 'production' ? 'developpement' : 'production');
 //define ('MODE', 'developpement');
 include "php_erreur.php";
@@ -57,15 +57,22 @@ include ROOT."config/classes/liste.class.php";
 include ROOT."config/classes/lib.files.php";
 include ROOT.'config/classes/errors.class.php';
 include ROOT."config/classes/messages.class.php";
-include ROOT.'config/classes/panier.class.php';
-include ROOT.'config/classes/commande.class.php';
 
 /*****************************************************************
 * DEMARRAGE SESSION
 ******************************************************************/
 session_start();
 
+/*****************************************************************
+* DEMARRAGE SESSION
+******************************************************************/
+session_start();
 
+/*****************************************************************
+* INSTANCIATION
+******************************************************************/
+// Instanciation de la class Message
+$msg = new Messages();
 
 /*****************************************************************
 * CONNECTION BDD
