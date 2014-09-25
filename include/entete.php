@@ -27,7 +27,7 @@
 			<ul class="line">
 				<li  class="inbl <?php if ($rubrique=='accueil') echo 'lien_actif'; ?>" ><a href="index.php"><span>Accueil</span></a></li>
 				<li  class="inbl <?php if ($rubrique=='portfolio') echo 'lien_actif'; ?>" ><a href="portfolio.php"><span>Portfolio</span></a></li>
-				<li  class="inbl <?php if ($rubrique=='menu4') echo 'lien_actif'; ?>" ><a href="#"><span>Compétences</span></a></li>
+				<li  class="inbl <?php if ($rubrique=='competence') echo 'lien_actif'; ?>" ><a href="competence.php"><span>Compétences</span></a></li>
 				<li  class="inbl <?php if ($rubrique=='menu4') echo 'lien_actif'; ?>" ><a href="#"><span>Services</span></a></li>
 				<li  class="inbl <?php if ($rubrique=='contact') echo 'lien_actif'; ?>" ><a href="contact.php"><span>Contact</span></a></li>
 			</ul>

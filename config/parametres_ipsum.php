@@ -9,9 +9,9 @@ define ("VERSION" , "2.3" ) ;
 
 // Site
 if (SERVEUR == 'local')
-    define ("URL" , "http://www.oceanefinances.5-4.lan/" ) ;
+    define ("URL" , "http://www.nomdurepertoire.5-4.lan/" ) ;
 else
-    define ("URL" , "http://www.oceanefinances.com/" ) ;
+    define ("URL" , "http://www.nomdedomaine.com/" ) ;
 
 // Destinataire des erreurs php
 define ("MAIL_ADMINISTRATEUR", 'erreurphp@pixellweb.com');  // Ne pas modifier

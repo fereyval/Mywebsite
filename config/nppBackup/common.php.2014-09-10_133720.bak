@@ -71,7 +71,7 @@ session_start();
 * CONNECTION BDD
 ******************************************************************/
 // Load DB abstraction layer and connect
-//require ROOT.'config/classes/common_db.php';
+require ROOT.'config/classes/common_db.php';
 // Start a transaction
 //$db->start_transaction();
 

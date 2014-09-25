@@ -82,8 +82,8 @@ body {
 		.menu li.lien_actif {
 			background:  #2ba9d9;
 			min-height: 100px;
-			padding-left:45px;
-			padding-right:45px;
+			padding-left:40px;
+			padding-right:40px;
             padding-top:40px;
 		}
 			.menu a {
@@ -576,3 +576,26 @@ border-radius: 10px;
     -o-transform: translate(300px,-225px);
     -webkit-transform: translate(300px,-225px);
 }
+
+.caracteristiques {
+    float: left;
+   width: 330px;
+}
+.cara_droite {
+    /*width: 224px;*/
+    margin-left: 10px;
+}
+ .caracteristiques ul {
+	list-style-type: none;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 200px;
+    }
+.caracteristiques li {
+	    clear: both;
+	    margin-bottom: 5px;
+	}
+.caracteristiques .etoile {
+		float: right;
+		display: block;
+	    }

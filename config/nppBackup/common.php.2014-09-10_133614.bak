@@ -65,15 +65,33 @@ include ROOT.'config/classes/commande.class.php';
 ******************************************************************/
 session_start();
 
+/*****************************************************************
+* INSTANCIATION
+******************************************************************/
+// Instanciation de la class Message
+$msg = new Messages();
 
+// Instanciation de la class Panier et mise en session de l'objet $panier
+if (!isset($_SESSION['PANIER'])) {
+    $panier = new Panier(Panier::GESTION_STOCK);
+} else {
+    $panier = $_SESSION['PANIER'];
+}
+register_shutdown_function(array($panier, "session"));
+
+// Instanciation de la class Commande et mise en session de l'objet $commande
+if (isset($_SESSION['COMMANDE'])) {
+    $commande = $_SESSION['COMMANDE'];
+    register_shutdown_function(array($commande, "session"));
+}
 
 /*****************************************************************
 * CONNECTION BDD
 ******************************************************************/
 // Load DB abstraction layer and connect
-//require ROOT.'config/classes/common_db.php';
+require ROOT.'config/classes/common_db.php';
 // Start a transaction
-//$db->start_transaction();
+$db->start_transaction();
 
 /******************************************************************
 * REPERTOIRES

@@ -25,7 +25,7 @@ include("include/entete.php");
         <div class="separation mls" style="border-left: 4px solid black;padding-left:10px;">
             <p class="mini-menup">Portfolio</p>
             <ul class="mini-menu">
-                <li><a href="#bvn">Bienvenue</a></li>
+                <li><a href="#bvn">Mes projets</a></li>
                 <li><a href="#for">Formulaire et mentions légales</a></li>
             </ul>
         </div>
