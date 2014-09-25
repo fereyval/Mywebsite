@@ -278,7 +278,7 @@ img.bordure {
 }
 
 .separation2 {
-background: url(separation2.png) left 80px no-repeat;
+    border-left: 8px #2ba9d9 solid;
 }
 
 .mini-menup {
@@ -608,20 +608,26 @@ border-radius: 10px;
 
 .caracteristiques {
     float: left;
-   width: 320px;
+   width: 480px;
 }
 
  .caracteristiques ul {
 	list-style-type: none;
 	margin-left: 10px;
 	margin-right: 10px;
-	width: 200px;
+	width: 400px;
     }
 .caracteristiques li {
 	    clear: both;
 	    margin-bottom: 5px;
 	}
+    
 .caracteristiques .etoile {
 		float: right;
 		display: block;
-	    }
+	}
+
+.marge {
+    margin-left: 360px;
+}
+        

@@ -100,22 +100,29 @@ include("include/entete.php");
 <div role="main" class="texte3 pam">
 	<div class="conteneur center">
 		<div class="row pts pll">
-			<div class="col w50 pam separation2">
+			<div class="col w50 pam">
 				<h2 class="title-h2"><img><span>Pourquoi</span> DDR Web?<img></h2>
-				<p style="text-shadow: 1px 1px grey;">
-				Et prima ut dictum est, ab hac descriptione discrevimus, Commagena, nunc Euphratensis, clementer adsurgit, Hierapoli, vetere Nino et Samosata civitatibus amplis inlustris.
-				</p>
-				<p style="text-shadow: 1px 1px grey;">
-				Haec igitur Epicuri non probo, inquam. De cetero vellem equidem aut ipse doctrinis fuisset instructior est enim, quod tibi ita videri necesse est, non satis politus iis artibus, quas qui tenent, eruditi appellantur aut ne deterruisset alios a studiis. quamquam te quidem video minime esse deterritum.
-				</p>
-				 <p class="txtcenter mbm right mrl"><a style="color:black" class="bouton1" href="#">Lire la suite</a></p>
-			</div>
-			<div class="col w50 pam separation2">
-				<h2 class="title-h2"><img><span>Qui</span> suis-je?<img></h2>
-				<p style="text-shadow: 1px 1px grey;">
-				Haec et huius modi quaedam innumerabilia ultrix facinorum impiorum bonorumque praemiatrix aliquotiens operatur Adrastia atque utinam semper quam vocabulo duplici etiam Nemesim appellamus: ius quoddam sublime numinis efficacis, humanarum mentium opinione lunari circulo superpositum, vel ut definiunt alii, substantialis tutela generali potentia partilibus praesidens fatis, quam theologi veteres fingentes Iustitiae filiam ex abdita quadam aeternitate tradunt omnia despectare terrena.
-				</p >
+                <div class="separation2 plm">
+                    <p style="text-shadow: 1px 1px grey;" >
+                    DDR Web c'est l'abréviation des mots Développement / Design / Référencement qui correspondent aux phases même de la création d'un site web.
+                    </p>
+                    <p style="text-shadow: 1px 1px grey;" >
+                    Cette sociétée propose différents services en rapport avec la conception de sites internet qu'ils soient gros, petits, avec boutique en ligne, avec un formulaire php, etc. La chartre graphique, l'intégration et le développement de chaque sites web sont fait par une seule personne auto-entrepreneur. Pour plus d'informations sur les services proposés, cliquez sur le bouton ci-dessous.
+                    </p>
+                </div>
 				 <p class="txtcenter mbm right mrl mtl"><a style="color:black" class="bouton1" href="#">Lire la suite</a></p>
+			</div>
+			<div class="col w50 pam">
+				<h2 class="title-h2"><img><span>Qui</span> suis-je?<img></h2>
+                <div class="separation2 plm">
+                    <p style="text-shadow: 1px 1px grey;">
+                    Je suis un étudiant de 2ème année à Epitech lyon, une école d'informatique qui propose un cursus d'expert en 5 ans durant lequel vous serez confronté à faire environ 1 an et demi de stage en entreprise.
+                    </p>
+                    <p style="text-shadow: 1px 1px grey;">
+                    Je code depuis près de 3 ans et ai appris les bases du Web grâce à l'association Epiweb Lyon et me suis formé durant un stage de 4 mois chez Pixellweb une entreprise également basée sur la conception de sites internet aux Antilles. Durant ces 3 années à coder, j'ai aquis pas mal de compétences que vous pourrez décortiquer en cliquant sur le lien suivant.
+                    </p>
+                </div>
+				<p class="txtcenter mbm right mrl mtl"><a style="color:black" class="bouton1" href="#">Lire la suite</a></p>
 			</div>
 		</div>
 	</div>	
@@ -168,11 +175,11 @@ include("include/entete.php");
 
 <div role="main" class="texte6 pam">
 	<div class="conteneur center">
-		<div class="accordion">
-			<p class="mbm mll fuck accordion-titre"><a style="color:#FFFFFF" class="bouton2"><img src="styles/btn.png" id="test" onclick="change();" class="pad"/>Pour toute demande cliquez ici</a></p>
+		<div class="accordion" id="for">
+			<p class="mbm mll fuck accordion-titre"><a style="color:#FFFFFF" class="bouton2"><img src="styles/btn.png" id="test" onclick="change();" class="pad"/>Pour démarrer un contrat, cliquez ici</a></p>
 			<div class="formulaire1">
 				<form method="post" action="contact.php">
-					<p class="form-style" id="for">Nom : <input type="text" name="nom" /></p>
+					<p class="form-style" >Nom : <input type="text" name="nom" /></p>
 				</form><br>
 				<form method="post" action="contact.php">
 					<p class="form-style">Prénom : <input type="text" name="prenom" /></p>
@@ -180,7 +187,7 @@ include("include/entete.php");
 				<form method="post" action="contact.php">
 					<p class="form-style">E-mail : <input type="email" placeholder="Ex : test@hotmail.fr" name="email" /></p>
 				</form><br>
-				<a href="contact.php"><input type="submit" value="Envoyer" /></a>
+				<a href="contact.php"><input type="submit" value="Continuer" /></a>
 			</div>
 		</div>
 	</div>

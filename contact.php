@@ -49,7 +49,15 @@ $head = '
 <style type="text/css">
 .s_kill { display: none; }
 </style>';
-$javascript = '';
+$javascript = '<script src=javascripts/jquery.b1njAccordion.js></script>
+    <script>
+        $(function() {
+            $(".accordion").b1njAccordion({
+                header      : "p",
+                conteneur   : "div",
+            });
+        });
+    </script>';
 include("include/entete.php");
 ?>
 <div role="main" class="texte plm">
@@ -59,7 +67,7 @@ include("include/entete.php");
             <ul class="mini-menu">
                 <li><a href="#bvn">Coordonnées</a></li>
                 <li><a href="#map">Géolocalisation</a></li>
-                <li><a href="#for">Envoyez un message</a></li>
+                <li><a href="#for">Envoyer un message</a></li>
             </ul>
         </div>
         <div class="sociaux">
@@ -72,12 +80,11 @@ include("include/entete.php");
     </div>
 </div>
 
-<div role="main" class="texte3 plm ptm">
+<div role="main" class="texte2 plm ptm">
 	<div class="conteneur center plm">  
-        <h1>Contactez-nous</h1>
-
-        <h2 id="bvn">Nos coordonnées</h2>
+        <h2 class="title-h2" id="bvn"><span>Nos</span> coordonnées</h2>
         <div class="vcard">
+            <div class="txtleft mll mts">
             <p>
                 <strong class="fn"><?php echo SOC_NOM ?></strong>
             </p>
@@ -86,12 +93,42 @@ include("include/entete.php");
                 <span class="street-address"><?php echo SOC_ADRESSE ?></span><br>
                 <span class="postal-code"><?php echo SOC_CP ?></span> - <span class="locality"><?php echo SOC_VILLE ?></span><br>
                 <strong>Téléphone :</strong> <span class="tel"><?php echo SOC_TEL ?></span><br>
-                <strong>GSM :</strong> <span><?php echo SOC_GSM ?></span><br>
-                <strong>Fax :</strong> <?php echo SOC_FAX ?><br>
                 <strong>Courriel :</strong> <span class="email"><?php echo mailAntiSpam(SOC_EMAIL) ?></span>
             </p>
+            </div>
         </div>
-        <h2 id="for">Envoyez-nous un message</h2>
+    </div>
+</div>
+
+<div role="main" class="texte3 pam">
+	<div class="conteneur center marge">
+        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2779.4914838197215!2d5.027704399999999!3d45.8414621!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4b9ba9b8f37af%3A0xa6d368918897b3a9!2s53+Rue+de+Pr%C3%A9+Mayeux%2C+01120+La+Boisse%2C+France!5e0!3m2!1sfr!2s!4v1411669244727" width="600" height="450" frameborder="0" style="border:0"></iframe>
+    </div>
+</div>
+
+<div role="main" class="texte4 pam">
+	<div class="conteneur center">
+		<div class="conteneur center pam" style="border: 1px solid white;">
+            <div class="box">
+                <img src="composants/icondev.png" alt="developpement" class="iconbar"/>
+                <p class="title-p"><span>D</span>eveloppement</p>
+            </div>
+            <div class="box">
+                <img src="composants/iconpaint.png" alt="developpement" class="iconbar" style="padding-left:50px;"/>
+                <p class="title-p" style="text-align:left; padding-left:60px;"><span>D</span>esign</p>
+            </div>
+            <div class="box">
+                <img src="composants/inconref.png" alt="developpement" class="iconbar"/>
+                <p class="title-p"><span>R</span>eferencement</p>
+            </div>
+        </div>
+	</div>
+</div>
+
+<div role="main" class="texte6 plm ptm">
+	<div class="conteneur center plm">  
+        <h2 class="mll title-h2" id="for"><span>Envoyez-nous</span> un message</h2>
+        <div  class="mll">
         <?php echo $msg->display('all', true, false); ?>
         <form class="saisie2" method="post" action="?">
             <p <?php  echo $msg->hasErrors('nom') ? 'class="form_erreur"' : '' ?>>
@@ -123,6 +160,22 @@ include("include/entete.php");
                 <input name="submit" id="submit" class="envoyer_mail" type="submit" value="Envoyer">
             </p>
         </form>
+        </div>
+        <div class="accordion">
+			<p class="mbm mll fuck accordion-titre"><a style="color:#FFFFFF" class="bouton2"><img src="styles/btn.png" id="test" onclick="change();" class="pad"/>Pour démarrer un contrat, cliquez ici</a></p>
+			<div class="formulaire1">
+				<form method="post" action="contact.php">
+					<p class="form-style" id="for">Nom : <input type="text" name="nom" /></p>
+				</form><br>
+				<form method="post" action="contact.php">
+					<p class="form-style">Prénom : <input type="text" name="prenom" /></p>
+				</form><br>
+				<form method="post" action="contact.php">
+					<p class="form-style">E-mail : <input type="email" placeholder="Ex : test@hotmail.fr" name="email" /></p>
+				</form><br>
+				<a href="contact.php"><input type="submit" value="Continuer" /></a>
+			</div>
+		</div>
     </div>
 </div>
 <?php

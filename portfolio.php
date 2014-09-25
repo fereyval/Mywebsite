@@ -241,11 +241,11 @@ include("include/entete.php");
 
 <div role="main" class="texte6 pam">
 	<div class="conteneur center">
-		<div class="accordion"  id="for">
-			<p class="mbm mll fuck accordion-titre"><a style="color:#FFFFFF" class="bouton2"><img src="styles/btn.png" id="test" onclick="change();" class="pad"/>Pour toute demande cliquez ici</a></p>
+		<div class="accordion" id="for">
+			<p class="mbm mll fuck accordion-titre"><a style="color:#FFFFFF" class="bouton2"><img src="styles/btn.png" id="test" onclick="change();" class="pad"/>Pour démarrer un contrat, cliquez ici</a></p>
 			<div class="formulaire1">
 				<form method="post" action="contact.php">
-					<p class="form-style">Nom : <input type="text" name="nom" /></p>
+					<p class="form-style" >Nom : <input type="text" name="nom" /></p>
 				</form><br>
 				<form method="post" action="contact.php">
 					<p class="form-style">Prénom : <input type="text" name="prenom" /></p>
@@ -253,7 +253,7 @@ include("include/entete.php");
 				<form method="post" action="contact.php">
 					<p class="form-style">E-mail : <input type="email" placeholder="Ex : test@hotmail.fr" name="email" /></p>
 				</form><br>
-				<a href="contact.php"><input type="submit" value="Envoyer" /></a>
+				<a href="contact.php"><input type="submit" value="Continuer" /></a>
 			</div>
 		</div>
 	</div>
