@@ -4,7 +4,7 @@ if (!defined('ROOT'))
 require ROOT.'config/common.php';
 
 // Variables d'entete
-$rubrique = 'Competence';
+$rubrique = 'competence';
 $title = "Mes Compétences";
 $description = "";
 $head = '';
