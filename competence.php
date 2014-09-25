@@ -47,10 +47,10 @@ include("include/entete.php");
 				<li style="text-decoration:none; list-style-type:none;">
 					<div class="diapo">
 						<div class="box2">
-							<img src="composants/diapo1.jpg" alt="" class="diapo-img" id="bvn">
+							<img src="composants/diapo3.jpg" alt="" class="diapo-img" id="bvn">
 						</div>
 						<div class="box3">
-							<h3>Ceci est mon portfolio!</h3>
+							<h3>Mes compétences dans les languages informatiques.</h3>
 							<p>Vous découvrirez ici tout les projets que j'ai pu réaliser ou ceux auquels j'ai contribué, ainsi qu'une brêve description de leurs fonctionnalitées. Ils y a des projets dans plusieurs langages comme les languages du web, le C, le C++ et des maquettes graphiques en photoshop / firework.</p>
                          </div>
 					</div>
@@ -70,14 +70,14 @@ include("include/entete.php");
 							<img src="styles/etoileP.png" alt="étoile" />
 							<img src="styles/etoileP.png" alt="étoile" />
 							<img src="styles/etoileP.png" alt="étoile" />
-							<img src="styles/etoilev.png" alt="étoile" />
-							<img src="styles/etoileV.png" alt="" />
+							<img src="styles/etoileM.png" alt="étoile" />
+							<img src="styles/etoileV.png" alt="étoile" />
 						</span>
 					</li>
 					<li>Javascript
 						<span class="etoile">
 							<img src="styles/etoileP.png" alt="étoile" />
-							<img src="styles/etoilev.png" alt="étoile" />
+							<img src="styles/etoileM.png" alt="étoile" />
 							<img src="styles/etoilev.png" alt="étoile" />
 							<img src="styles/etoilev.png" alt="étoile" />
 							<img src="styles/etoileV.png" alt="" />
@@ -97,7 +97,7 @@ include("include/entete.php");
 							<img src="styles/etoileP.png" alt="étoile" />
 							<img src="styles/etoileP.png" alt="étoile" />
 							<img src="styles/etoileP.png" alt="étoile" />
-							<img src="styles/etoileP.png" alt="étoile" />
+							<img src="styles/etoileM.png" alt="étoile" />
 							<img src="styles/etoileV.png" alt="" />
 						</span>
 					</li>
@@ -112,6 +112,7 @@ include("include/entete.php");
 					</li>
 				</ul>
 		</div>
+        <a href="http://ge.tt/api/1/files/7k6psUz1/0/blob?download">Mon CV</a>
 	</div>
 </div>
 
