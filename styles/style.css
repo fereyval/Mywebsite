@@ -71,26 +71,30 @@ body {
 	}
 		.menu li {
 			font-family: 'mv_boliregular';
-            padding: 40px 23px;
 			text-align: center;
 			display: inline-block;
 			font-size: 1em;
             width: auto;
-            vertical-align: bottom;
+            vertical-align: top;
 			min-height: 100px;
 		}
 		.menu li.lien_actif {
 			background:  #2ba9d9;
 			min-height: 100px;
-			padding-left:40px;
-			padding-right:40px;
-            padding-top:40px;
-		}
+            padding-top:0px;
+		}				
 			.menu a {
 				color: white;
 				text-decoration: none;
-                padding-top: 50px;
-                padding-bottom: 50px;
+                padding-bottom:40px;
+				padding-right:20px;
+				padding-top:40px;
+				padding-left:20px;
+			}
+			
+			.menu a.lien_actif {
+				padding-right:40px;
+				padding-left:40px;
 			}
 				.menu a:hover {
 					text-decoration: none;
@@ -412,6 +416,26 @@ img.bordure {
     }
 	
 	.box3 h3 {
+        color:black;
+        text-align: center;
+		font-family: 'mv_boliregular';
+		font-size: 1.3em;
+    }
+	
+.box4 {
+  display: inline-block;
+  vertical-align:top;
+  padding-top:20px;
+  width: 500px;
+  margin-left:1em;
+  margin-right:1em;
+}
+	.box4 p {
+        color:black;
+        text-align: center;
+    }
+	
+	.box4 h3 {
         color:black;
         text-align: center;
 		font-family: 'mv_boliregular';

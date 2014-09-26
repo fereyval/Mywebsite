@@ -64,7 +64,7 @@ include("include/entete.php");
 						</div>
 						<div class="box3">
 							<h3>Mes compétences dans les languages informatiques.</h3>
-							<p>Ici vous découvrirez mes différentes compétences en informatique. Il s'agit bien sur des différents languages mais aussi de certains logiciels utiles à la création d'un site internet. Une compétence avec 3 étoiles ou plus équivaut à une compétence plus ou moins bien maitrisée.</p>
+							<p>Ici vous découvrirez mes différentes compétences en informatique. Il s'agit bien sur des différents languages mais aussi de certains logiciels utiles à la création d'un site internet. Une compétence avec 3 étoiles ou plus équivaut à une compétence plus ou moins bien maitrisée. J'ai également joins mon <a style="text-decoration:none;color:black;font-size:1.1em;font-weight:bold;" href="#cv">Curriculum Vittae</a> pour plus de renseignement.</p>
                          </div>
 					</div>
 				</li>

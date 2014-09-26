@@ -93,23 +93,63 @@ include("include/entete.php");
 </div>
 
 <div role="main" class="texte2 plm ptm">
-	<div class="conteneur center plm">  
-        <h2 class="title-h2" id="bvn"><span>Nos</span> coordonnées</h2>
-        <div class="vcard">
-            <div class="txtleft mll mts">
-            <p>
-                <strong class="fn"><?php echo SOC_NOM ?></strong>
-            </p>
-            <p>
-                <strong>Adresse :</strong><br>
-                <span class="street-address"><?php echo SOC_ADRESSE ?></span><br>
-                <span class="postal-code"><?php echo SOC_CP ?></span> - <span class="locality"><?php echo SOC_VILLE ?></span><br>
-                <strong>Téléphone :</strong> <span class="tel"><?php echo SOC_TEL ?></span><br>
-                <strong>Courriel :</strong> <span class="email"><?php echo mailAntiSpam(SOC_EMAIL) ?></span>
-            </p>
-            </div>
-        </div>
-    </div>
+	<div class="conteneur center plm">
+		<div class="row pts">
+			<div class="caracteristiques col w70 pam" >
+				<h2 class="mll title-h2" id="for"><span>Envoyez-nous</span> un message</h2>
+				<div  class="mll">
+				<?php echo $msg->display('all', true, false); ?>
+				<form class="saisie2" method="post" action="?">
+					<p <?php  echo $msg->hasErrors('nom') ? 'class="form_erreur"' : '' ?>>
+						<label for="nom" class="oblig" >Nom </label>
+						<input name="nom" id="nom" type="text" value="<?php echo htmlXspecialchars(!empty($_POST['nom']) ? $_POST['nom'] : '')?>">
+					</p>
+					<p>
+						<label for="prenom">Prénom</label>
+						<input name="prenom" id="prenom" type="text" value="<?php echo htmlXspecialchars(!empty($_POST['prenom']) ? $_POST['prenom'] : '')?>">
+					</p>
+					<p class="s_kill">
+						<label for="age">Age</label>
+						<input name="age" id="age" type="text" value="">
+					</p>
+					<p <?php  echo $msg->hasErrors('email') ? 'class="form_erreur"' : '' ?>>
+						<label for="email" class="oblig" >Courriel </label>
+						<input name="email" id="email" type="text" value="<?php echo htmlXspecialchars(!empty($_POST['email']) ? $_POST['email'] : '')?>">
+					</p>
+					<p>
+						<label for="telephone">Téléphone </label>
+						<input name="telephone" id="telephone" type="text" value="<?php echo htmlXspecialchars(!empty($_POST['telephone']) ? $_POST['telephone'] : '')?>">
+					</p>
+					<p <?php  echo $msg->hasErrors('message') ? 'class="form_erreur"' : '' ?>>
+						<label for="message" class="oblig" >Message</label>
+						<textarea name="message"  id="message" cols="40" rows="5" ><?php echo htmlXspecialchars(!empty($_POST['message']) ? $_POST['message'] : '')?></textarea>
+					</p>
+					<p>
+						<label for="submit">&nbsp;</label>
+						<input name="submit" id="submit" class="envoyer_mail" type="submit" value="Envoyer">
+					</p>
+				</form>
+				</div>
+			</div>
+            <div class="caracteristiques col w30 pam" >
+				<h2 class="title-h2" id="bvn"><span>Nos</span> coordonnées</h2>
+				<div class="vcard">
+					<div class="txtleft mll mts">
+					<p>
+						<strong class="fn"><?php echo SOC_NOM ?></strong>
+					</p>
+					<p>
+						<strong>Adresse :</strong><br>
+						<span class="street-address"><?php echo SOC_ADRESSE ?></span><br>
+						<span class="postal-code"><?php echo SOC_CP ?></span> - <span class="locality"><?php echo SOC_VILLE ?></span><br>
+						<strong>Téléphone :</strong> <span class="tel"><?php echo SOC_TEL ?></span><br>
+						<strong>Courriel :</strong> <span class="email"><?php echo mailAntiSpam(SOC_EMAIL) ?></span>
+					</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
 <div role="main" class="texte3 pam">
@@ -139,47 +179,14 @@ include("include/entete.php");
 	</div>
 </div>
 
-<div role="main" class="texte6 plm ptm">
-	<div class="conteneur center plm">  
-        <h2 class="mll title-h2" id="for"><span>Envoyez-nous</span> un message</h2>
-        <div  class="mll">
-        <?php echo $msg->display('all', true, false); ?>
-        <form class="saisie2" method="post" action="?">
-            <p <?php  echo $msg->hasErrors('nom') ? 'class="form_erreur"' : '' ?>>
-                <label for="nom" class="oblig" >Nom </label>
-                <input name="nom" id="nom" type="text" value="<?php echo htmlXspecialchars(!empty($_POST['nom']) ? $_POST['nom'] : '')?>">
-            </p>
-            <p>
-                <label for="prenom">Prénom</label>
-                <input name="prenom" id="prenom" type="text" value="<?php echo htmlXspecialchars(!empty($_POST['prenom']) ? $_POST['prenom'] : '')?>">
-            </p>
-            <p class="s_kill">
-                <label for="age">Age</label>
-                <input name="age" id="age" type="text" value="">
-            </p>
-            <p <?php  echo $msg->hasErrors('email') ? 'class="form_erreur"' : '' ?>>
-                <label for="email" class="oblig" >Courriel </label>
-                <input name="email" id="email" type="text" value="<?php echo htmlXspecialchars(!empty($_POST['email']) ? $_POST['email'] : '')?>">
-            </p>
-            <p>
-                <label for="telephone">Téléphone </label>
-                <input name="telephone" id="telephone" type="text" value="<?php echo htmlXspecialchars(!empty($_POST['telephone']) ? $_POST['telephone'] : '')?>">
-            </p>
-            <p <?php  echo $msg->hasErrors('message') ? 'class="form_erreur"' : '' ?>>
-                <label for="message" class="oblig" >Message</label>
-                <textarea name="message"  id="message" cols="40" rows="5" ><?php echo htmlXspecialchars(!empty($_POST['message']) ? $_POST['message'] : '')?></textarea>
-            </p>
-            <p>
-                <label for="submit">&nbsp;</label>
-                <input name="submit" id="submit" class="envoyer_mail" type="submit" value="Envoyer">
-            </p>
-        </form>
-        </div>
-        <div class="accordion">
+<div role="main" class="texte6 pam">
+	<div class="conteneur center">
+		<div class="accordion" id="for">
+            <img src="styles/button.png" class="pad2"/>
 			<p class="mbm mll fuck accordion-titre"><a style="color:#FFFFFF" class="bouton2"><img src="styles/btn.png" id="test" onclick="change();" class="pad"/>Pour démarrer un contrat, cliquez ici</a></p>
 			<div class="formulaire1">
 				<form method="post" action="contact.php">
-					<p class="form-style" id="for">Nom : <input type="text" name="nom" /></p>
+					<p class="form-style" >Nom : <input type="text" name="nom" /></p>
 				</form><br>
 				<form method="post" action="contact.php">
 					<p class="form-style">Prénom : <input type="text" name="prenom" /></p>
@@ -190,7 +197,7 @@ include("include/entete.php");
 				<a href="contact.php"><input type="submit" value="Continuer" /></a>
 			</div>
 		</div>
-    </div>
+	</div>
 </div>
 <?php
 $msg->clear();

@@ -71,9 +71,9 @@ include("include/entete.php");
 						<div class="box2">
 							<img src="composants/diapo2.jpg" alt="" class="diapo-img" id="bvn">
 						</div>
-						<div class="box3">
+						<div class="box4">
 							<h3>Bienvenue sur le site de la DDR Web!</h3>
-							<p>Et prima ut dictum est, ab hac descriptione discrevimus, Commagena, nunc Euphratensis, clementer adsurgit, Hierapoli, vetere Nino et Samosata civitatibus amplis inlustris.Haec igitur Epicuri non probo, inquam. De cetero vellem equidem aut ipse doctrinis fuisset instructior est enim, quod tibi ita videri necesse est, non satis politus iis artibus, quas qui tenent, eruditi appellantur aut ne deterruisset alios a studiis.</p>
+							<p>Je suis étudiant développeur web dans l'ain à coté de Lyon et également auto-entrepreneur. Voici mon site portfolio dans lequel je vous parle de ma passion pour le Web. Que ce soit pour le développement web ou le web design, je partage sur mon site toutes les infos que j'ai et les services que je propose. Vous trouverez aussi mes derniers projets web , mon cv ainsi qu'un formulaire d'inscription pour débuter un nouveau dossier chez DDR Web! N'hésitez pas à visiter toutes les pages et laisser vos impressions...</p>
 						</div>
 					</div>
 				</li>
@@ -107,7 +107,7 @@ include("include/entete.php");
                     DDR Web c'est l'abréviation des mots Développement / Design / Référencement qui correspondent aux phases même de la création d'un site web.
                     </p>
                     <p style="text-shadow: 1px 1px grey;" >
-                    Cette sociétée propose différents services en rapport avec la conception de sites internet qu'ils soient gros, petits, avec boutique en ligne, avec un formulaire php, etc. La chartre graphique, l'intégration et le développement de chaque sites web sont fait par une seule personne auto-entrepreneur. Pour plus d'informations sur les services proposés, cliquez sur le bouton ci-dessous.
+                    Cette sociétée propose différents services en rapport avec la conception de sites internet, que ce soit un simple blog wordpress, un site personnel ou même un E-commerce (simplifié). La chartre graphique, l'intégration et le développement de chaque sites web sont fait par moi. Pour plus d'informations sur les services que je propose, cliquez sur le bouton ci-dessous.
                     </p>
                 </div>
 				 <p class="txtcenter mbm right mrl mtl"><a style="color:black" class="bouton1" href="#">Lire la suite</a></p>
@@ -150,24 +150,34 @@ include("include/entete.php");
 		<h2 class="title-h2" id="rea"><span>Mes dernières</span> réalisations</h2>
 		<div id="carousel">
         <div class="carousel-feature">
-          <a href="#"><img class="carousel-image" alt="Image Caption" src="styles/bijoudexpo.jpg"></a>
-		  <div class="carousel-caption">
-            <p>
-              This area is typically used to display captions associated with the images. They are set to hide and fade in on rotation.
-            </p>
-          </div>
+			<a href="sites/bijoudexpo/index.html"><img class="carousel-image" alt="Image Caption" src="styles/last/bijoudexpo.jpg"></a>
+			<div class="carousel-caption">
+				<p>Un bijou d'expo : Ce site à été fait dans le cadre d'une recherche de stage. Il présente une exposition de bijou ayant eu lieu à Reims le 18/06/14.</p>
+			</div>
         </div>
         <div class="carousel-feature">
-          <a href="#"><img class="carousel-image" alt="Image Caption" src="styles/bijoudexpo.jpg"></a>
+			<a href="http://antilles-recouvrement.com/"><img class="carousel-image" alt="Image Caption" src="styles/last/antillerecou.jpg"></a>
+			<div class="carousel-caption">
+				<p>Antille Recouvrement : Site réalisé pendant mon stage de 4 mois chez Pixell Martinique.</p>
+			</div>
         </div>
         <div class="carousel-feature">
-          <a href="#"><img class="carousel-image" alt="Image Caption" src="styles/bijoudexpo.jpg"></a>
+			<a href="#"><img class="carousel-image" alt="Image Caption" src="styles/last/ddrweb.jpg"></a>
+			<div class="carousel-caption">
+				<p>DDR Web : C'est le site sur lequel vous êtes il fut créer par moi et moi seul pendant ma periode de stage.</p>
+			</div>
         </div>
         <div class="carousel-feature">
-          <a href="#"><img class="carousel-image" alt="Image Caption" src="styles/bijoudexpo.jpg"></a>
+			<a href="http://inkcaraibes-mq.com/"><img class="carousel-image" alt="Image Caption" src="styles/last/ink.jpg"></a>
+			<div class="carousel-caption">
+				<p>Ink'martinique : Site réalisé pendant mon stage de 4 mois chez Pixell Martinique.</p>
+			</div>
         </div>
         <div class="carousel-feature">
-          <a href="#"><img class="carousel-image" alt="Image Caption" src="styles/bijoudexpo.jpg"></a>
+			<a href="404.hmtl"><img class="carousel-image" alt="Image Caption" src="styles/last/vide.jpg"></a>
+			<div class="carousel-caption">
+				<p>Emplacement vide : Devenez client pour que votre site apparaisse ici!</p>
+			</div>
           </div>
         </div>
 	</div>
