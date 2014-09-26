@@ -16,7 +16,20 @@ $javascript = '<script src=javascripts/jquery.b1njAccordion.js></script>
                 conteneur   : "div",
             });
         });
-    </script>';
+    </script>
+    <script type="text/javascript">
+        function change()
+        {
+         a = document.getElementById("test").getAttribute("src");
+         if (a=="styles/btn.png") {
+                      document.getElementById("test").src="styles/btn2.png";
+                  }
+ 
+                  else {
+                 document.getElementById("test").src="styles/btn.png";
+                  }
+        }
+        </script>';
 include("include/entete.php");
 ?>
 
@@ -242,8 +255,9 @@ include("include/entete.php");
 <div role="main" class="texte6 pam">
 	<div class="conteneur center">
 		<div class="accordion" id="for">
+            <img src="styles/button.png" class="pad2"/>
 			<p class="mbm mll fuck accordion-titre"><a style="color:#FFFFFF" class="bouton2"><img src="styles/btn.png" id="test" onclick="change();" class="pad"/>Pour démarrer un contrat, cliquez ici</a></p>
-			<div class="formulaire1">
+            <div class="formulaire1">
 				<form method="post" action="contact.php">
 					<p class="form-style" >Nom : <input type="text" name="nom" /></p>
 				</form><br>

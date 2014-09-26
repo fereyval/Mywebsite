@@ -57,7 +57,20 @@ $javascript = '<script src=javascripts/jquery.b1njAccordion.js></script>
                 conteneur   : "div",
             });
         });
-    </script>';
+    </script>
+    <script type="text/javascript">
+        function change()
+        {
+         a = document.getElementById("test").getAttribute("src");
+         if (a=="styles/btn.png") {
+                      document.getElementById("test").src="styles/btn2.png";
+                  }
+ 
+                  else {
+                 document.getElementById("test").src="styles/btn.png";
+                  }
+        }
+        </script>';
 include("include/entete.php");
 ?>
 <div role="main" class="texte plm">

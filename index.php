@@ -5,7 +5,7 @@ require ROOT.'config/common.php';
 
 // Variables d'entete
 $rubrique = 'accueil';
-$title = "Titre de la page";
+$title = "DDR Web accueil";
 $description = "";
 $head = '';
 $javascript = '
@@ -176,6 +176,7 @@ include("include/entete.php");
 <div role="main" class="texte6 pam">
 	<div class="conteneur center">
 		<div class="accordion" id="for">
+            <img src="styles/button.png" class="pad2"/>
 			<p class="mbm mll fuck accordion-titre"><a style="color:#FFFFFF" class="bouton2"><img src="styles/btn.png" id="test" onclick="change();" class="pad"/>Pour démarrer un contrat, cliquez ici</a></p>
 			<div class="formulaire1">
 				<form method="post" action="contact.php">

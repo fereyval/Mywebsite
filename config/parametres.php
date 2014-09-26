@@ -7,17 +7,17 @@
 *   Attention : Ne mettre qu'une constante par ligne
 **********************************************************************/
 // Site
-define ("NOM_SITE" , "weshwesh cmoilplusbo" ) ; // Nom du site
+define ("NOM_SITE" , "Créateur de sites internet" ) ; // Nom du site
 
 // Coordonnees
-define ("SOC_NOM" , "OCEANE FINANCES SARL" ) ; // Nom de la société
-define ("SOC_ADRESSE" , "608 rue ROSALIE SOLEIL - DILLON" ) ; // Adresse
-define ("SOC_CP" , "97200" ) ; // Code postal
-define ("SOC_VILLE" , "Fort-de-France - Martinique - FWI" ) ; // Ville
-define ("SOC_TEL" , "0596 39 81 23" ) ; // Téléphone de contact
-define ("SOC_GSM" , "06 96 xx xx xx" ) ; // Téléphone portable
-define ("SOC_FAX" , "0596 39 82 20" ) ; // Fax
-define ("SOC_EMAIL" , "test@pixellweb.com" ) ; // Email
+define ("SOC_NOM" , "DDR Web" ) ; // Nom de la société
+define ("SOC_ADRESSE" , "53 Rue de pré mayeu" ) ; // Adresse
+define ("SOC_CP" , "01120" ) ; // Code postal
+define ("SOC_VILLE" , "La Boisse - France" ) ; // Ville
+define ("SOC_TEL" , "06 15 59 67 98" ) ; // Téléphone de contact
+define ("SOC_GSM" , "" ) ; // Téléphone portable
+define ("SOC_FAX" , "" ) ; // Fax
+define ("SOC_EMAIL" , "valentin.ferey@epitech.eu" ) ; // Email
 
 // Mentions légales
 define ("SOC_RCS" , "x xxx xxx xxx Ville" ) ; // RCS : Nom et numéro d'inscription suivi du nom de la ville
@@ -29,7 +29,7 @@ define ("SOC_REDAC" , "Wendy Guerry" ) ; // Nom du responsable de la rédaction
 define ("SOC_CNIL" , "(numéro en cours)" ) ; // N° CNIL : N° ou "Numéro en cours"
 
 // Envoi de mail
-define ("MAIL_TO", 'test@oceanefinances.com');
+define ("MAIL_TO", 'valentin.ferey@epitech.eu');
 
 // Paginationq
 // Nombre de lignes par page par défaut pour les listes
