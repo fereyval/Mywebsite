@@ -72,10 +72,9 @@ include("include/entete.php");
         </div>
         <div class="sociaux">
             <ul class="sociaux-liste">
-                <li><a href="https://www.facebook.com/pages/Oc%C3%A9ane-Finances/225308804320795"><img src="composants/facebook.png" alt="Facebook"></a></li>
-                <li><a href="https://twitter.com/Oceane_Finances"><img src="composants/twitter.png" alt="Twitter"></a></li>
-                <li><a href="https://www.linkedin.com/company/oceane-finances?trk=biz-companies-cym"><img src="composants/linkedin.png" alt="Linkedin"></a></li>
-            </ul>
+				<li><a href="https://www.facebook.com/fereyva"><img src="composants/facebook.png" alt="Facebook"></a></li>
+				<li><a href="https://twitter.com/Firely23"><img src="composants/twitter.png" alt="Twitter"></a></li>
+				<li><a href="https://github.com/firely23"><img src="composants/linkedin.png" alt="Linkedin"></a></li></ul>
         </div>
     </div>
 </div>
@@ -101,9 +100,11 @@ include("include/entete.php");
 </div>
 
 <div role="main" class="texte3 pam">
-	<div class="conteneur center marge">
-        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2779.4914838197215!2d5.027704399999999!3d45.8414621!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4b9ba9b8f37af%3A0xa6d368918897b3a9!2s53+Rue+de+Pr%C3%A9+Mayeux%2C+01120+La+Boisse%2C+France!5e0!3m2!1sfr!2s!4v1411669244727" width="600" height="450" frameborder="0" style="border:0"></iframe>
-    </div>
+	<div class="conteneur center">
+		<div class="mll">
+			<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2779.4914838197215!2d5.027704399999999!3d45.8414621!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4b9ba9b8f37af%3A0xa6d368918897b3a9!2s53+Rue+de+Pr%C3%A9+Mayeux%2C+01120+La+Boisse%2C+France!5e0!3m2!1sfr!2s!4v1411669244727" width="960" height="500" frameborder="0" style="border:0"></iframe>
+		</div>
+	</div>
 </div>
 
 <div role="main" class="texte4 pam">

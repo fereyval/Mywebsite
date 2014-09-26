@@ -11,7 +11,9 @@
 	<link href="styles/jquery.bxslider.css" rel="stylesheet" />
     <link rel="stylesheet" href="styles/portfolio.css" type="text/css" media="screen"/>
 	<link rel="stylesheet" href="styles/feature-carousel.css" charset="utf-8" />
-	     <script type='text/javascript' src='javascripts/jquery-1.7.2.min.js'></script>
+	<script type='text/javascript' src='javascripts/jquery-1.7.2.min.js'></script>
+	<link rel="icon" type="jpg" href="composants/favicon.png">
+
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->

@@ -54,9 +54,9 @@ include("include/entete.php");
         </div>
         <div class="sociaux">
             <ul class="sociaux-liste">
-                        <li><a href="https://www.facebook.com/pages/Oc%C3%A9ane-Finances/225308804320795"><img src="composants/facebook.png" alt="Facebook"></a></li>
-                        <li><a href="https://twitter.com/Oceane_Finances"><img src="composants/twitter.png" alt="Twitter"></a></li>
-                        <li><a href="https://www.linkedin.com/company/oceane-finances?trk=biz-companies-cym"><img src="composants/linkedin.png" alt="Linkedin"></a></li>
+				<li><a href="https://www.facebook.com/fereyva"><img src="composants/facebook.png" alt="Facebook"></a></li>
+				<li><a href="https://twitter.com/Firely23"><img src="composants/twitter.png" alt="Twitter"></a></li>
+				<li><a href="https://github.com/firely23"><img src="composants/linkedin.png" alt="Linkedin"></a></li>
             </ul>
         </div>
 	</div>
@@ -122,7 +122,7 @@ include("include/entete.php");
                     Je code depuis près de 3 ans et ai appris les bases du Web grâce à l'association Epiweb Lyon et me suis formé durant un stage de 4 mois chez Pixellweb une entreprise également basée sur la conception de sites internet aux Antilles. Durant ces 3 années à coder, j'ai aquis pas mal de compétences que vous pourrez décortiquer en cliquant sur le lien suivant.
                     </p>
                 </div>
-				<p class="txtcenter mbm right mrl mtl"><a style="color:black" class="bouton1" href="#">Lire la suite</a></p>
+				<p class="txtcenter mbm right mrl mtl"><a style="color:black" class="bouton1" href="competence.php">Lire la suite</a></p>
 			</div>
 		</div>
 	</div>	
