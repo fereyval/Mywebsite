@@ -227,7 +227,7 @@ include("include/entete.php");
             <div class="caracteristiques col w50 pam" >
                 <h2 class="title-h3" style="font-size:1.8em;"><span>F</span>rameworks</h2>
                 <ul>
-                    <li><img src="styles/logos/14.png" alt="logo" style="margin:10px;"/>JQuéry
+                    <li><img src="styles/logos/14.png" alt="logo" style="margin:10px;"/>JQuery
                         <span class="etoile mtl">
                             <img src="styles/etoileP.png" alt="étoile" />
                             <img src="styles/etoileP.png" alt="étoile" />

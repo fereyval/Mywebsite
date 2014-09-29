@@ -73,7 +73,7 @@ include("include/entete.php");
 						</div>
 						<div class="box4">
 							<h3>Bienvenue sur le site de la DDR Web!</h3>
-							<p>Je suis étudiant développeur web dans l'ain à coté de Lyon et également auto-entrepreneur. Voici mon site portfolio dans lequel je vous parle de ma passion pour le Web. Que ce soit pour le développement web ou le web design, je partage sur mon site toutes les infos que j'ai et les services que je propose. Vous trouverez aussi mes derniers projets web , mon cv ainsi qu'un formulaire d'inscription pour débuter un nouveau dossier chez DDR Web! N'hésitez pas à visiter toutes les pages et laisser vos impressions...</p>
+							<p>Je suis étudiant développeur web dans l'ain à coté de Lyon et également auto-entrepreneur. Voici mon site portfolio dans lequel je vous parle de ma passion pour le Web. Que ce soit pour le développement web ou le web design, je partage sur mon site toutes les informations que j'ai et les services que je propose. Vous trouverez aussi mes derniers projets web , mon cv ainsi qu'un formulaire d'inscription pour débuter un nouveau dossier chez DDR Web! N'hésitez pas à visiter toutes les pages et laisser vos impressions...</p>
 						</div>
 					</div>
 				</li>
