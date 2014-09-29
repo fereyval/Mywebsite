@@ -228,14 +228,7 @@ include("include/entete.php");
                 <a href="404.html" style="text-decoration:none"><p><b> Emplacement vide</b><br><br> Devenez client pour que votre site apparaisse ici!</p>
                 <img style="border:1px black solid;" src="composants/portfolio/portfolio14.jpg" alt=""></a>
                 </div>
-            </li> 
-			
-			<li style="display: block;" class="">
-                <div style="width:164px;height:121px;" class="slide-down-right" >
-                <a href="404.html" style="text-decoration:none"><p><b> Emplacement vide</b><br><br> Devenez client pour que votre site apparaisse ici!</p>
-                <img style="border:1px black solid;" src="composants/portfolio/portfolio14.jpg" alt=""></a>
-                </div>
-            </li>     
+            </li>  
         </ul>
     </div>
 </div>

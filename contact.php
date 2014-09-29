@@ -29,9 +29,9 @@ if (isset($_POST['submit'])) {
             $resultat=sendMail( MAIL_TO,   $_POST['nom'].' '.$_POST['prenom'], $_POST['email'], MAIL_OBJET, $message);
 
             if($resultat != 1) {
-                $msg->adds('e', 'Votre demande de contact <strong>n\'a pas été envoyée</strong>');
+                $msg->adds('e', 'Votre message<strong>n\'a pas été envoyé</strong>');
             } else {
-                $msg->add('s', 'Votre demande de contact <strong>a été envoyée</strong>');
+                $msg->add('s', 'Votre message <strong>a été envoyé</strong>');
                 unset($_POST);
             }
         }

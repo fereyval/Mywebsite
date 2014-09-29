@@ -96,10 +96,11 @@ body {
 				padding-right:40px;
 				padding-left:40px;
 			}
-				.menu a:hover {
+				.menu li:hover {
 					text-decoration: none;
+					background-color:orange;
 				}
-
+				
 				.menu span {
 					font-weight: none;
 					font-size:1.3em;
@@ -262,7 +263,7 @@ img.bordure {
 	background: #fce5e1;
 }
 .oblig {
-	color: #ce0000 ;
+	color: #ce0000;
 }
 
 /*---- Formulaire sans tableau -------*/
