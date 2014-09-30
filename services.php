@@ -75,6 +75,21 @@ include("include/entete.php");
 
 <div role="main" class="texte3 pam">
     <div class="conteneur center plm">
+        <h2 class="title-h2"><span>Formule</span> Simple</h2>
+        <p>
+            Dans cette formule vous avez les choix avec 3 maquettes graphiques de sites internets déjà pré concus. Vous n'avez qu'à fournir les photos, le texte et le thème désiré pour que votre site internet soit prêt en un rien de temps et à prix mini! Vous avez donc les choix entre ces 3 modèles ci-dessous:</p>
+        </p>
+        <div class="row pts">
+            <div class="col w33 pam">
+                <img src="styles/last/ddrweb2.jpg" alt="" class="forms">
+            </div>
+            <div class="col w33 pam" >
+                <img src="styles/last/ddrweb2.jpg" alt="" class="forms">
+            </div>
+            <div class="col w33 pam" >
+                <img src="styles/last/ddrweb2.jpg" alt="" class="forms">
+            </div>
+        </div>
     </div>
 </div>
 
