@@ -95,12 +95,7 @@ body {
 			.menu a.lien_actif {
 				padding-right:40px;
 				padding-left:40px;
-			}
-				.menu li:hover {
-					text-decoration: none;
-					background-color:orange;
-				}
-				
+			}	
 				.menu span {
 					font-weight: none;
 					font-size:1.3em;
