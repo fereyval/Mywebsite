@@ -194,7 +194,7 @@ include("include/entete.php");
 				<form method="post" action="contact.php">
 					<p class="form-style">E-mail : <input type="email" placeholder="Ex : test@hotmail.fr" name="email" /></p>
 				</form><br>
-				<a href="contact.php"><input type="submit" value="Continuer" /></a>
+				<a href="conditions.php"><input type="submit" value="Continuer" /></a>
 			</div>
 		</div>
 	</div>

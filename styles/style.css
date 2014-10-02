@@ -496,6 +496,16 @@ img.bordure {
     font-style: italic;
 }
 
+.form-style2 {
+    font-size: 1.3em;
+    background-color: #eff1f0;
+}
+
+.forml {
+    background-color: #eff1f0;
+    border:none;
+}
+
 .title-h2 {
     text-transform: uppercase;
     font-family: 'mv_boliregular';
@@ -504,7 +514,7 @@ img.bordure {
 }
 
     .title-h2 span{
-    color: #2ba9d9;
+        color: #2ba9d9;
     }
     
 .title-p {
@@ -659,8 +669,18 @@ border-radius: 10px;
 		display: block;
 	}
 
-.marge {
-    margin-left: 240px;
+.marge1 {
+    margin-left: 210px;
+}
+
+.marge2 {
+    margin-left: 194px;
+}
+.marge3 {
+    margin-left: 194px;
+}
+.marge4 {
+    margin-left: 102px;
 }
 
 .forms{
@@ -674,7 +694,7 @@ border-radius: 10px;
 	padding: 10px 0
 }
 .avant li {
-	background: url(../img/puc.png) no-repeat;
+	background: url(puce.png) no-repeat;
 	padding: 3px 0px 15px 25px;
 	line-height: 18px;
 	color: #474747

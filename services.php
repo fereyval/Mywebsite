@@ -88,8 +88,24 @@ include("include/entete.php");
             </div>
             <div class="col w33 pam" >
                 <img src="styles/last/ddrweb2.jpg" alt="" class="forms">
+                <a href="conditions.php" class="right mts">Souscrire à l'offre</a>
             </div>
         </div>
+        <h2 class="title-h2"><span>Formule</span> Premium</h2>
+        <p>Cette formule est une formule All inclusive elle comprend toute les étapes necessaires à la création d'un site à votre image.<p>
+        <p>En souscrivant à cette formule vous aurez droit à :</p>
+        <ul class="avant">
+            <li>Frais de dossier</li>
+            <li>Maquette graphique</li>
+            <li>Suivi continu de l'avancement du site</li>
+            <li>Intégration</li>
+            <li>Développement</li>
+            <li>Un nom de domaine personnalisé</li>
+            <li>Une base de donnée</li>
+            <li>Un hébergement chez OVH</li>
+            <a href="conditions.php" class="right mts mrs">Souscrire à l'offre</a>
+            <li>Un référencement de qualité</li>
+        </ul>
     </div>
 </div>
 
@@ -127,7 +143,7 @@ include("include/entete.php");
 				<form method="post" action="contact.php">
 					<p class="form-style">E-mail : <input type="email" placeholder="Ex : test@hotmail.fr" name="email" /></p>
 				</form><br>
-				<a href="contact.php"><input type="submit" value="Continuer" /></a>
+				<a href="conditions.php"><input type="submit" value="Continuer" /></a>
 			</div>
 		</div>
 	</div>
