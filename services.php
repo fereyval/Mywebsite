@@ -88,7 +88,7 @@ include("include/entete.php");
             </div>
             <div class="col w33 pam" >
                 <img src="styles/last/ddrweb2.jpg" alt="" class="forms">
-                <a href="conditions.php" class="right mts">Souscrire à l'offre</a>
+                <a href="conditions.php" class="myButton right mts" style="color:white;">Souscrire à l'offre</a>                
             </div>
         </div>
         <h2 class="title-h2"><span>Formule</span> Premium</h2>
@@ -103,7 +103,7 @@ include("include/entete.php");
             <li>Un nom de domaine personnalisé</li>
             <li>Une base de donnée</li>
             <li>Un hébergement chez OVH</li>
-            <a href="conditions.php" class="right mts mrs">Souscrire à l'offre</a>
+            <a href="conditions.php" class="myButton right" style="color:white;">Souscrire à l'offre</a>
             <li>Un référencement de qualité</li>
         </ul>
     </div>

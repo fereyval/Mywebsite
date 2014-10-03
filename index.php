@@ -110,7 +110,7 @@ include("include/entete.php");
                     Cette sociétée propose différents services en rapport avec la conception de sites internet, que ce soit un simple blog wordpress, un site personnel ou même un E-commerce (simplifié). La chartre graphique, l'intégration et le développement de chaque sites web sont fait par moi. Pour plus d'informations sur les services que je propose, cliquez sur le bouton ci-dessous.
                     </p>
                 </div>
-				 <p class="txtcenter mbm right mrl mtl"><a style="color:black" class="bouton1" href="#">Lire la suite</a></p>
+				 <p class="txtcenter mbm right mrl mtl"><a style="color:black" class="bouton1" href="services.php">Lire la suite</a></p>
 			</div>
 			<div class="col w50 pam">
 				<h2 class="title-h2"><img><span>Qui</span> suis-je?<img></h2>
